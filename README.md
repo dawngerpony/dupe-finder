@@ -46,6 +46,13 @@ Run tox:
 tox
 ```
 
+## Project information
+
+This project:
+
+* uses [Typer] to provide CLI features
+* runs [tox] during CI via [tox-gh]
+
 ## Resources
 
 * <https://www.pythoncentral.io/finding-duplicate-files-with-python/>
@@ -55,3 +62,6 @@ tox
 [pipx]: https://pipx.pypa.io/stable/installation/
 [pyenv]: https://github.com/pyenv/pyenv?tab=readme-ov-file#installation
 [pyenv-virtualenv]: https://github.com/pyenv/pyenv-virtualenv
+[tox]: https://tox.wiki
+[tox-gh]: https://github.com/tox-dev/tox-gh
+[typer]: https://typer.tiangolo.com
